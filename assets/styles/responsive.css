@@ -1,0 +1,54 @@
+/* for small device  */
+@media screen and (max-width:576px) {
+
+    /* header styles  */
+    header nav,
+    header nav ul {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+    .banner .text h2 {
+        font-size: 2rem;
+    }
+
+    .banner .text h1 {
+        font-size: 4rem;
+    }
+
+    .banner .text .buttons {
+        width: 100%;
+
+        .bg-aqua {
+            margin-left: 0px;
+        }
+
+        .btn-secondary {
+            padding: 20px 30px;
+        }
+
+    }
+}
+
+/* for medium device  */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header styles  */
+    header nav,
+    header nav ul {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+
+}
