@@ -202,3 +202,27 @@ header nav ul .btn {
 .online-game .container .description {
     margin-top: 24px;
 }
+
+.online-game .container .box div {
+    position: relative;
+}
+
+.online-game .container .box div .gradient {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 50px;
+        margin-bottom: 16px;
+    }
+}
