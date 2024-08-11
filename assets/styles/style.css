@@ -226,3 +226,35 @@ header nav ul .btn {
         margin-bottom: 16px;
     }
 }
+
+/* download section  */
+.download {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download .text {
+    padding: 80px;
+}
+
+.download .text .heading {
+    max-width: 350px;
+}
+
+.download .image {
+    position: relative;
+}
+
+.download .image .big {
+    width: 100%;
+}
+
+.download .image .small {
+    position: absolute;
+    left: -145px;
+    bottom: -75px;
+}

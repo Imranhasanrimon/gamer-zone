@@ -56,6 +56,30 @@
     .online-game .container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* download section  */
+    .download {
+        flex-direction: column;
+    }
+
+    .download .text {
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
+    .download .text .heading {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .download .image .small {
+        position: absolute;
+        left: 50%;
+        bottom: -75px;
+        transform: translateX(-50%);
+
+    }
+
 }
 
 /* for medium device  */
@@ -85,6 +109,25 @@
     /* online game section  */
     .online-game .container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* download section  */
+    .download {
+        flex-direction: column;
+    }
+
+    .download .text .heading {
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .download .image .small {
+        position: absolute;
+        left: 50%;
+        bottom: -75px;
+        transform: translateX(-50%);
+
     }
 
 }
