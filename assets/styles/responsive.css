@@ -33,6 +33,19 @@
         }
 
     }
+
+    /* gamer section  */
+    .gamer {
+        flex-direction: column;
+    }
+
+    .gamer .text {
+        text-align: center;
+    }
+
+    .gamer .text h2 {
+        font-size: 2rem;
+    }
 }
 
 /* for medium device  */
@@ -50,5 +63,13 @@
         gap: 100px;
     }
 
+    /* gamer section  */
+    .gamer {
+        flex-direction: column;
+    }
+
+    .gamer .text {
+        text-align: center;
+    }
 
 }
