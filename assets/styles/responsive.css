@@ -1,6 +1,11 @@
 /* for small device  */
 @media screen and (max-width:576px) {
 
+    /* shared styles  */
+    .title {
+        font-size: 2rem;
+    }
+
     /* header styles  */
     header nav,
     header nav ul {
@@ -46,6 +51,11 @@
     .gamer .text h2 {
         font-size: 2rem;
     }
+
+    /* online game section  */
+    .online-game .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* for medium device  */
@@ -70,6 +80,11 @@
 
     .gamer .text {
         text-align: center;
+    }
+
+    /* online game section  */
+    .online-game .container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }

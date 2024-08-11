@@ -31,9 +31,19 @@
     color: rgb(255, 66, 165);
 }
 
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .description {
     font-size: 1.125rem;
     color: rgb(83, 76, 100);
+}
+
+.heading {
+    max-width: 655px;
+    margin: 0 auto;
 }
 
 /* header section  */
@@ -164,4 +174,31 @@ header nav ul .btn {
 
 .gamer .text h3 {
     margin-top: 10px;
+}
+
+/* online game styles  */
+.online-game {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 100px;
+}
+
+.online-game .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.online-game .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.online-game .container img {
+    width: 100%;
+}
+
+.online-game .container .description {
+    margin-top: 24px;
 }
