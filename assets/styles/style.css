@@ -235,6 +235,7 @@ header nav ul .btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 200px;
 }
 
 .download .text {
@@ -257,4 +258,53 @@ header nav ul .btn {
     position: absolute;
     left: -145px;
     bottom: -75px;
+}
+
+/* career section  */
+.career {
+    background: rgb(249, 72, 178);
+    margin-bottom: 100px;
+}
+
+.career .content {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career .content .text {
+    max-width: 680px;
+    color: white;
+    padding: 100px 0;
+    flex-shrink: 2;
+}
+
+.career .content .text h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
+
+.career .content .text .list {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career .content .text .list .right {
+    text-align: right;
+}
+
+.career .content .text .btn-secondary {
+    margin-top: 40px;
+    background: white;
+    color: rgb(249, 72, 178);
+}
+
+.career .content .image img {
+    width: 100%;
 }

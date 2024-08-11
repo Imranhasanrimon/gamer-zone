@@ -80,6 +80,12 @@
 
     }
 
+    /* career styles  */
+    .career .content {
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
 }
 
 /* for medium device  */
@@ -130,4 +136,9 @@
 
     }
 
+    /* career styles  */
+    .career .content {
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
 }
