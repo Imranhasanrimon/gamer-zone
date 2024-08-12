@@ -359,6 +359,11 @@ footer .logo {
     h3 {
         font-size: 2.8125rem;
         font-weight: 700;
+        cursor: pointer;
+    }
+
+    img {
+        cursor: pointer;
     }
 }
 
@@ -368,7 +373,6 @@ footer .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 
     a {
         color: white;
@@ -386,6 +390,7 @@ footer .link {
 
     img {
         width: 40px;
+        cursor: pointer;
     }
 }
 
@@ -398,11 +403,12 @@ footer .support {
 }
 
 footer .copyright {
-    margin-top: -42px;
+    margin-top: -32px;
     text-align: center;
 }
 
 footer p {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
 }
