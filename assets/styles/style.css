@@ -308,3 +308,10 @@ header nav ul .btn {
 .career .content .image img {
     width: 100%;
 }
+
+/* game-type section */
+.game-type {
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%, rgba(255, 66, 165, 0.03) 87.942%);
+}
+
+.game-type .btn-primary {}
