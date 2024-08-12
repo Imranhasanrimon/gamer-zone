@@ -342,3 +342,67 @@ header nav ul .btn {
         width: 60px;
     }
 }
+
+/* footer section  */
+footer {
+    color: white;
+    background: black;
+    padding: 120px 20px;
+}
+
+footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    h3 {
+        font-size: 2.8125rem;
+        font-weight: 700;
+    }
+}
+
+footer .nav {
+    max-width: 815px;
+    margin: 55px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    a {
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+}
+
+footer .link {
+    max-width: 460px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 40px;
+    }
+}
+
+footer .support {
+    max-width: 710px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .copyright {
+    margin-top: -42px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
