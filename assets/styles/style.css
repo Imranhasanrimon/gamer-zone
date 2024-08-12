@@ -311,7 +311,34 @@ header nav ul .btn {
 
 /* game-type section */
 .game-type {
+    max-width: 1480px;
+    margin: 100px auto;
+    padding: 0 20px;
     background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%, rgba(255, 66, 165, 0.03) 87.942%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.game-type .btn-primary {}
+.game-type .btn-last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    padding-right: 20px;
+
+    a {
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: black;
+    }
+
+    img {
+        width: 60px;
+    }
+}
