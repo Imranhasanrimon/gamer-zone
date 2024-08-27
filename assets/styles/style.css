@@ -397,6 +397,10 @@ footer .link {
         width: 40px;
         cursor: pointer;
     }
+
+    img:hover {
+        transform: scale(1.10);
+    }
 }
 
 footer .support {
